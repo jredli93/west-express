@@ -103,18 +103,18 @@ html {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 7px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: $dark-black;
+    background: $darkBlue;
     border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: $darkBlue;
+    background: #f06037c9;
     border-radius: 10px;
 }
 

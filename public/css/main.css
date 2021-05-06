@@ -502,18 +502,30 @@
 }
 
 .testimonials-wrap {
-  background: linear-gradient(55deg, rgba(255, 255, 255, 0) 46%, rgba(12, 95, 99, 0.48) 100%), url(/assets/images/trucking.jpg);
   background-position: 0% 82%;
   margin-top: 4rem;
-  padding: 7rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.testimonials-wrap .bg-effect {
+  background: url("/assets/images/night-road.jpg");
+  background-size: cover;
   background-attachment: fixed;
+  -moz-filter: blur(13px);
+  -o-filter: blur(13px);
+  -ms-filter: blur(13px);
+  filter: grayscale(0.5) brightness(1.5) saturate(1.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .testimonials-wrap .testimonials-content {
   max-width: 100%;
   margin: 0 auto;
+  filter: opacity(1);
 }
 .testimonials-wrap .testimonials-content .testimonials-overtitle {
-  color: #0f0f0f;
+  color: #efefef;
   font-size: 1.2rem;
   display: block;
   text-align: center;
@@ -523,8 +535,10 @@
   font-family: "Bebas Neue", cursive;
   text-align: center;
   font-size: 5rem;
+  padding-top: 5rem;
 }
 .testimonials-wrap .testimonials-background {
+  filter: opacity(1);
   height: 400px;
   max-width: 70vw;
   margin: 0 auto;
@@ -532,19 +546,26 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 5rem;
+  margin-bottom: 7rem;
 }
 .testimonials-wrap .testimonials-background .testimonials-info {
   flex: 0 1 calc(40% - 1rem);
-  background: #67bdcc;
   height: 100%;
   padding: 3.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: start;
+  background: linear-gradient(55deg, rgba(255, 255, 255, 0.16) 32%, #d0570f 100%), url("/assets/images/road.jpg");
+  background-position: 0% 112%;
+  background-attachment: fixed;
 }
 .testimonials-wrap .testimonials-background .testimonials-info .testimonials-info-text {
   margin: 1.5rem 0;
+  text-shadow: 0 0 8px black;
+}
+.testimonials-wrap .testimonials-background .testimonials-info .testimonials-info-title {
+  text-shadow: 0 0 8px black;
 }
 .testimonials-wrap .testimonials-background .testimonials-list {
   max-width: 70vw;
@@ -596,7 +617,6 @@
   text-align: center;
   font-family: "Bebas Neue", cursive;
   text-shadow: 0px 0px 5px black;
-  color: #337a94;
 }
 .testimonials-wrap .testimonials-background .testimonials-list .main-carousel .flickity-page-dots {
   bottom: 0px;
@@ -605,6 +625,7 @@
   height: 4px;
   width: 40px;
   margin: 0;
+  background: #c25638;
   border-radius: 0;
 }
 
@@ -1269,18 +1290,18 @@ html {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 7px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #0f0f0f;
+  background: #21546e;
   border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #21546e;
+  background: #f06037c9;
   border-radius: 10px;
 }
 
