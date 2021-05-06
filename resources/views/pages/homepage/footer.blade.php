@@ -1,6 +1,12 @@
 <footer class="footer-wrap">
     <div class="footer">
-        <span class="footer-right">2021 Dado.ch</span>
+        <ul class="footer-list">
+            <li class="footer-item"><a href="#">Home</a></li>
+            <li class="footer-item"><a href="#">About</a> Us</li>
+            <li class="footer-item"><a href="#">Services</a></li>
+            <li class="footer-item"><a href="#">Careers</a></li>
+            <li class="footer-item"><a href="#">Contact</a> Us</li>
+        </ul>
         <img src="/assets/images/logo.png" class="footer-logo" alt="">
         <div class="social-links">
             <i class="fa fa-instagram"></i>

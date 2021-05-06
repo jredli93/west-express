@@ -1,15 +1,30 @@
 .footer-wrap {
-    margin-top: 9rem;
+    background: $darkBlue;
 
     .footer {
-        border-top: 1px solid $text-white;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 4rem;
         max-width: 40vw;
         margin: 0 auto;
-        padding: 1.5rem 0;
+        padding: 2.5rem 0;
+        flex-direction: column;
+        gap: 2rem;
+        border-bottom: 4px solid $blue;
+        flex-direction: column;
+
+        .footer-list {
+            list-style-type: none;
+            display: flex;
+            gap: 1rem;
+
+            .footer-item, a {
+                font-family: $styled-text;
+                letter-spacing: 0.1rem;
+                text-decoration: none;
+            }
+        }
 
         @include mobile {
             max-width: 45vh;

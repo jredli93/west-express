@@ -630,17 +630,30 @@
 }
 
 .footer-wrap {
-  margin-top: 9rem;
+  background: #21546e;
 }
 .footer-wrap .footer {
-  border-top: 1px solid #efefef;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 4rem;
   max-width: 40vw;
   margin: 0 auto;
-  padding: 1.5rem 0;
+  padding: 2.5rem 0;
+  flex-direction: column;
+  gap: 2rem;
+  border-bottom: 4px solid #337a94;
+  flex-direction: column;
+}
+.footer-wrap .footer .footer-list {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+.footer-wrap .footer .footer-list .footer-item, .footer-wrap .footer .footer-list a {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
 }
 @media (max-width: 426px) {
   .footer-wrap .footer {
