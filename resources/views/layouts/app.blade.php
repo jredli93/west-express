@@ -33,8 +33,8 @@
     @yield('cta')
     @yield('services')
     @yield('work')
-    @yield('service')
-    @yield('contact')
+    @yield('testimonials')
+    @yield('cta-careers')
     @yield('footer')
 
     <div class="overlay overlay-slidedown">

@@ -16,6 +16,14 @@
     @include('pages.homepage.work')
 @endsection
 
+@section('testimonials')
+    @include('pages.homepage.testimonials')
+@endsection
+
+@section('cta-careers')
+    @include('pages.homepage.cta-careers')
+@endsection
+
 @section('footer')
     @include('pages.homepage.footer')
 @endsection

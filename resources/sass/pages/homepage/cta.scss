@@ -6,6 +6,7 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        flex-direction: row-reverse;
 
         @include mobile {
             flex-direction: column;
@@ -15,7 +16,7 @@
             flex: 0 1 58%;
             background: white;
             height: 100%;
-            padding: 4rem 4rem 4rem 18rem;
+            padding: 4rem 17rem 4rem 8rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -46,7 +47,7 @@
             }
 
             .cta-subtitle {
-                color: $lightBlue;
+                color: $dark-black;
             }
 
             .cta-title {
@@ -54,6 +55,7 @@
                 font-size: 5.5rem;
                 font-family: $styled-text;
                 padding-top: 1rem;
+                line-height: 5rem;
             }
         }
 

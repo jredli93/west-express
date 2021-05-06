@@ -13,6 +13,20 @@
     text-shadow: 0px 0px 5px $dark-black;
 }
 
+@mixin btn-transparent() {
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+
+    &:hover {
+        background: white;
+
+        span {
+            color: $dark-black;
+        }
+    }
+}
+
 @mixin laptop {
     @media (max-width: 1024px) {
         @content;

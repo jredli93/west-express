@@ -5,16 +5,14 @@
 // Pages
 @import './pages/homepage/home.scss';
 @import './pages/homepage/services.scss';
-@import './pages/homepage/cta.scss';
 @import './pages/homepage/work.scss';
-@import './pages/homepage/contact.scss';
+@import './pages/homepage/cta-careers.scss';
+@import './pages/homepage/cta.scss';
+@import './pages/homepage/testimonials.scss';
 @import './pages/homepage/footer.scss';
 
 @import './pages/about/header.scss';
 @import './pages/about/content.scss';
-
-@import './pages/contact/header.scss';
-@import './pages/contact/content.scss';
 
 @import './pages/careers/header.scss';
 @import './pages/careers/content.scss';
@@ -91,10 +89,6 @@ html {
     html {
         font-size: 12px;
     }
-}
-
-body {
-    background: $dark-black;
 }
 
 #map {
@@ -192,3 +186,14 @@ body {
     font-weight: bold;
 }
 
+.underline {
+    height: 0.3rem;
+    background: #f06037c4;
+    width: 8rem;
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.center {
+    margin: 0 auto;
+}

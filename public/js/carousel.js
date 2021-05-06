@@ -5,7 +5,7 @@ $('.main-carousel').flickity({
     pageDots: true,
     setGallerySize: false,
     wrapAround: true,
-    freeScroll: true,
+    freeScroll: false,
     imagesLoaded: true,
     prevNextButtons: false
 });
