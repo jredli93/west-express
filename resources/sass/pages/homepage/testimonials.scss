@@ -50,7 +50,7 @@
         margin-bottom: 7rem;
         background-size: cover;
 
-        @include mobile() {
+        @include tablet() {
             flex-direction: column;
             height: auto;
         }
@@ -69,6 +69,10 @@
             background-attachment: fixed;
             background-size: cover;
 
+            @include tablet() {
+                // background-size: none;
+            }
+
             .testimonials-info-text {
                 margin: 1.5rem 0;
                 text-shadow: 0 0 8px black;
@@ -86,7 +90,7 @@
             height: 100%;
             padding: 0 3.5rem 3.5rem 3.5rem;
             
-            @include mobile() {
+            @include tablet() {
                 width: 100%;
                 max-width: none;
             }
