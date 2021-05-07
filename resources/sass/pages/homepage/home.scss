@@ -23,12 +23,23 @@
             font-size: 5.7rem;
             line-height: 1rem;
             font-family: $styled-text;
+
+            @include mobile() {
+                font-size: 4.5rem;
+                margin: 1.5rem 0;
+            }
         }
 
         .cta-subheading {
             font-weight: 100;
             font-size: 3rem;
             line-height: 6rem;
+
+            @include mobile() {
+                font-size: 2.2rem;
+                text-align: center;
+                line-height: 4rem;
+            }
         }
 
         .btn-transparent {

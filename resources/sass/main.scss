@@ -176,6 +176,11 @@ html {
     height: 68px;
     line-height: 68px;
     padding: 0 2rem;
+
+    @include mobile {
+        line-height: 45px;
+        height: 50px;
+    }
 }
 
 .btn__text {

@@ -85,10 +85,23 @@
   line-height: 1rem;
   font-family: "Bebas Neue", cursive;
 }
+@media (max-width: 426px) {
+  .header .cta .cta-heading {
+    font-size: 4.5rem;
+    margin: 1.5rem 0;
+  }
+}
 .header .cta .cta-subheading {
   font-weight: 100;
   font-size: 3rem;
   line-height: 6rem;
+}
+@media (max-width: 426px) {
+  .header .cta .cta-subheading {
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 4rem;
+  }
 }
 .header .cta .btn-transparent {
   background: transparent;
@@ -276,6 +289,7 @@
   align-items: center;
   height: 60vh;
   margin-top: 6rem;
+  flex-direction: column;
 }
 .work-wrap .work-content .work-cards .work-card {
   flex: 0 1 calc(50% - 1rem);
@@ -547,6 +561,13 @@
   align-items: center;
   margin-top: 5rem;
   margin-bottom: 7rem;
+  background-size: cover;
+}
+@media (max-width: 426px) {
+  .testimonials-wrap .testimonials-background {
+    flex-direction: column;
+    height: auto;
+  }
 }
 .testimonials-wrap .testimonials-background .testimonials-info {
   flex: 0 1 calc(40% - 1rem);
@@ -559,6 +580,7 @@
   background: linear-gradient(55deg, rgba(255, 255, 255, 0.16) 32%, #d0570f 100%), url("/assets/images/road.jpg");
   background-position: 0% 112%;
   background-attachment: fixed;
+  background-size: cover;
 }
 .testimonials-wrap .testimonials-background .testimonials-info .testimonials-info-text {
   margin: 1.5rem 0;
@@ -573,6 +595,12 @@
   background: #21546e;
   height: 100%;
   padding: 0 3.5rem 3.5rem 3.5rem;
+}
+@media (max-width: 426px) {
+  .testimonials-wrap .testimonials-background .testimonials-list {
+    width: 100%;
+    max-width: none;
+  }
 }
 .testimonials-wrap .testimonials-background .testimonials-list .main-carousel {
   height: 350px;
@@ -1371,6 +1399,12 @@ html {
   height: 68px;
   line-height: 68px;
   padding: 0 2rem;
+}
+@media (max-width: 426px) {
+  .btn--xlrg {
+    line-height: 45px;
+    height: 50px;
+  }
 }
 
 .btn__text {

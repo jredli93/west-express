@@ -27,6 +27,7 @@
             align-items: center;
             height: 60vh;
             margin-top: 6rem;
+            flex-direction: column;
 
             .work-card {
                 flex: 0 1 calc(50% - 1rem);
