@@ -87,7 +87,7 @@
 }
 @media (max-width: 426px) {
   .header .cta .cta-heading {
-    font-size: 4.5rem;
+    font-size: 4.2rem;
     margin: 1.5rem 0;
   }
 }
@@ -270,6 +270,11 @@
   margin: 0 auto;
   height: 105vh;
 }
+@media (max-width: 426px) {
+  .work-wrap .work-content {
+    height: auto;
+  }
+}
 .work-wrap .work-content .work-overtitle {
   color: #0f0f0f;
   font-size: 1.2rem;
@@ -295,10 +300,15 @@
     flex-direction: column;
   }
 }
+@media (max-width: 426px) {
+  .work-wrap .work-content .work-cards {
+    height: 85vh;
+  }
+}
 .work-wrap .work-content .work-cards .work-card {
   flex: 0 1 calc(50% - 1rem);
   height: 100%;
-  padding: 3.5rem;
+  padding: 1.3rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -319,6 +329,11 @@
   z-index: 10;
   text-shadow: 0 0 8px black;
   font-size: 2.6rem;
+}
+@media (max-width: 426px) {
+  .work-wrap .work-content .work-cards .work-card .card-title {
+    font-size: 1.7rem;
+  }
 }
 .work-wrap .work-content .work-cards .work-card .card-text {
   margin: 1.5rem 0;
@@ -426,6 +441,11 @@
 .cta-wrap {
   height: 85vh;
 }
+@media (max-width: 426px) {
+  .cta-wrap {
+    height: auto;
+  }
+}
 .cta-wrap .cta-content {
   height: 100%;
   display: flex;
@@ -489,6 +509,11 @@
 }
 .cta-wrap .cta-content .cta-right .cta-right-container {
   height: 100%;
+}
+@media (max-width: 426px) {
+  .cta-wrap .cta-content .cta-right .cta-right-container {
+    height: 45vh;
+  }
 }
 .cta-wrap .cta-content .cta-right .cta-right-container .cta-right-stats {
   display: flex;
@@ -1419,6 +1444,11 @@ html {
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: bold;
+}
+@media (max-width: 426px) {
+  .btn__text {
+    font-size: 0.7rem;
+  }
 }
 
 .underline {

@@ -1,6 +1,10 @@
 .cta-wrap {
     height: 85vh;
 
+    @include mobile() {
+        height: auto;
+    }
+
     .cta-content {
         height: 100%;
         display: flex;
@@ -70,6 +74,10 @@
 
             .cta-right-container {
                 height: 100%;
+
+                @include mobile() {
+                    height: 45vh;
+                }
 
                 .cta-right-stats {
                     display: flex;
