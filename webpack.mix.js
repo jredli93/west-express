@@ -15,4 +15,4 @@ mix.js('resources/js/main.js', 'public/js')
     .sass('resources/sass/main.scss', 'public/css')
     .options({
       processCssUrls: false
-   });;
+   });

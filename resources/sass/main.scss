@@ -20,6 +20,9 @@
 @import './pages/services/header.scss';
 @import './pages/services/content.scss';
 
+@import './pages/contact/header.scss';
+@import './pages/contact/content.scss';
+
 // Global
 * {
     margin: 0;
@@ -91,7 +94,7 @@ html {
     }
 }
 
-#map {
+.contact-map {
     width: 100%;
     height: 65vh;
 }
@@ -205,4 +208,9 @@ html {
 
 .center {
     margin: 0 auto;
+}
+
+.gradient-background {
+    background-color: #0093E9;
+    background-image: linear-gradient(90deg, #0093E9 0%, #80D0C7 89%);
 }

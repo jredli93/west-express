@@ -1,18 +1,100 @@
 .header-contact {
-    height: 60vh;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 100% 80%, 50% 90%, 0 80%, 0 0);
-    clip-path: polygon(0 0, 100% 0, 100% 0, 100% 85%, 50% 95%, 0 85%, 0 0);
-    background-image: linear-gradient(to right bottom, rgba(36, 36, 36, 0.9), rgba(0, 0, 0, 0.17)), url('/assets/images/contact-background.jpg');
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
     @include nav;
+    position: relative;
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    .banner-contact {
+        @include center-content();
+        height: 25vh;
+        background: transparent;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 8rem;
+
+        .banner-single {
+            flex: 0 1 calc(25% - 0.5rem);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            animation: gradient 4s ease infinite;
+            box-shadow: 0 0 6px 0px #28acc2;
+            padding: 0 3rem;
+
+            .banner-single-title {
+                margin: 0.6rem 0;
+            }
+
+            .banner-single-text {
+                text-align: center;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 10px;
+                right: 10px;
+                top: 10px;
+                bottom: 10px;
+                border: 2px solid #ffffff5d;
+            }
+        }
+    }
+
+    .banner-single:nth-child(1) {
+        background: linear-gradient(-45deg, #92f4ff, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 4s ease infinite;
+
+    }
+
+    .banner-single:nth-child(2) {
+        background: linear-gradient(30deg, #53d3d1, #2eacda, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 4s ease infinite;
+    }
+
+    .banner-single:nth-child(3) {
+        background: linear-gradient(183deg, #23d5ab, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 4s ease infinite;
+    }
+
+    .banner-single:nth-child(4) {
+        background: linear-gradient(301deg, #92f4ff, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 4s ease infinite;
+    }
+
+    .contact-overtitle {
+        color: #545454;
+        font-size: 1.2rem;
+        display: block;
+        text-align: center;
+    }
 
     .contact-title {
-        margin-top: 5rem;
-        font-size: 2.2rem;
-        @include text-shadow();
+        color: $text-white;
+        font-family: $styled-text;
+        text-align: center;
+        padding-top: 8rem;
+        font-size: 5rem;
     }
 }

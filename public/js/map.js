@@ -1,10 +1,11 @@
-mapboxgl.accessToken = 'pk.eyJ1Ijoiam92YW5yZWRsaSIsImEiOiJja2p1anY2bjIwM2h5MzFsZzB3MjdsZDE4In0.YPXB6Pd62UMd5jf_qH-dHA';
+mapboxgl.accessToken = 'pk.eyJ1IjoidGl0YW5jb25jZXB0IiwiYSI6ImNrb2VrYXZ5MTA2NWkydXAya2w2MmZ6a3IifQ.FKYCVIor3ihyB0nyFRY-GA';
     var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/jovanredli/ckjyccn2t1nmk17s47o4bcmks',
-    center: [20.450870113036217, 20.450870113036217],
-    zoom: 14,    
+    container: 'contact-map',
+    style: 'mapbox://styles/titanconcept/ckoekptw11uy817ol49vky7cp',
+    center: [-96.78881347668334, 32.79041060859208],
+    zoom: 14,
+    scrollZoom: false,
 });
     var marker = new mapboxgl.Marker()
-    .setLngLat([20.450870113036217, 20.450870113036217])
+    .setLngLat([-96.78881347668334, 32.79041060859208])
     .addTo(map);

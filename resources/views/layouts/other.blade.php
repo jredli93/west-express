@@ -15,6 +15,10 @@
         rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     
+    <!-- MapBox -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+   
     <!-- Styles -->
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     <link href="{{ asset('css/aos.css') }}" rel="stylesheet">
@@ -29,7 +33,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.5.0/main.css"/>
 
 </head>
-<body>
+<body class="{{ (Request::is('contact') ? 'gradient-background' : '') }}">
 
     @yield('header')
     @yield('content')
@@ -52,10 +56,16 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://kit.fontawesome.com/5abe40685b.js" crossorigin="anonymous"></script>
-    <script src="{{ asset('js/aos.js') }}" defer></script>
+    <script>
+        $(function() {
+                AOS.init();
+            });
+    </script>
     <script src="{{ asset('js/main.js') }}" defer></script>
+    <script src="{{ asset('js/aos.js') }}" defer></script>
     <script src="{{ asset('js/mobile-menu.js') }}" defer></script>
     <script src="{{ asset('js/accordion.js') }}" defer></script>
+    <script src="{{ asset('js/map.js') }}" defer></script>
     
 </body>
 </html>
