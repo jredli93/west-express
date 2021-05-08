@@ -1,70 +1,61 @@
 <section class="services-content-wrap">
     <div class="services-content">
-{{-- 
-        @if($services)
-            @foreach($services as $service)
-                <a style="margin-left: 400px; margin-top: 200px; text-decoration:none;" href="/reservations/{{$service->id}}">Reserve termin for {{$service->service_name}} | Price {{$service->price}}CHF | Duration {{$service->duration}} MIN</a> <br>
-                <br>
-            @endforeach
 
-        @else
-            NO SERVICES
-        @endif --}}
+        {{-- <p class="services-text">Wherever your goods need to be delivered – you can rely on our long-time experience and
+        our fully comprehensive and customized services. Whatever your freight needs might be –
+        we are here as your most trusted partner.
+        Our services consist of transporting dry, temperature controlled, flatbed and expedited
+        freight, whatever your needs might be don’t hesitate to call us.</p> --}}
 
-        <span class="services-overtitle">Our process of</span>
-        <h1 class="services-title">services</h1>
-
-        <p class="services-text">Es gibt unzählige Möglichkeiten, wo man Körperschmuck tragen kann. Wir bieten dir die ganze Palette an möglichen
-        servicesarten.
-        Damit du aber lange Freude an deinem Schmuckstück hast, ist es wichtig einiges zu beachten. Ein services sollte gut
-        überlegt sein, deshalb legen wir wert auf einen reibungslosen Ablauf. Bei uns im Studio verwenden wir ausschliesslich
-        Qualitätsprodukte von höchstem Standard. Du kannst direkt online einen servicestermin buchen oder spontan bei uns im
-        Studio vorbeikommen
-
-        auf gut Glück.</p>
-
-        <div class="process-wrap">
-            <span class="process-overtitle">How it</span>
-            <h1 class="process-title">Works</h1>
-            <div class="process-container">
-                <div class="process-single">
-                    <img class="process-single-icon" src="/images/icons-tattoo/031-tattoo-studio.png" alt="">
-                    <h2 class="process-single-title">Hallo sagen</h2>
-                    <p class="process-singletext">Ein services stechen zu lassen ist Vertrauenssache. Deshalb laden wir dich gerne auf einen Espresso ein, damit du uns
+        <div class="services-wrap-container">
+            <h1 class="services-title">What we do</h1>
+            <span class="services-overtitle">and how</span>
+            <div class="services-container">
+                <div class="services-single">
+                    
+                    <img class="services-single-icon" src="{{asset('/assets/icons/004-gear.png')}}" alt="">                    
+                    <h2 class="services-single-title">Hallo sagen</h2>
+                    <p class="services-single-text">Ein services stechen zu lassen ist Vertrauenssache. Deshalb laden wir dich gerne auf einen Espresso ein, damit du uns
                     kennenlernen kannst.</p>
                 </div>
-                <div class="process-single">
-                    <img class="process-single-icon" src="/images/icons-tattoo/029-tattoo.png" alt="">
-                    <h2 class="process-single-title">Studio</h2>
-                    <p class="process-singletext">Unser Studio ist unser Herzstück. Damit du dich genau so wohlfühlen kannst wie wir, zeigen dir unsere Piercer gerne
-                    alles und erzählen dir alles über Hygiene, Sicherheit und Schmuckvielfalt.</p>
+                
+                <div class="services-single">
+                    
+                    <img class="services-single-icon" src="{{asset('/assets/icons/044-wheel pressure.png')}}" alt="">                    
+                    <h2 class="services-single-title">Hallo sagen</h2>
+                    <p class="services-single-text">Ein services stechen zu lassen ist Vertrauenssache. Deshalb laden wir dich gerne auf einen Espresso ein, damit du uns
+                    kennenlernen kannst.</p>
                 </div>
-                <div class="process-single">
-                    <img class="process-single-icon" src="/images/icons-tattoo/034-tattoo-machine.png" alt="">
-                    <h2 class="process-single-title">Idee & planung</h2>
-                    <p class="process-singletext">In einem persönlichen Gespräch kannst du uns alles über dein neues services erzählen. Wir prüfen und planen mit dir
-                    gemeinsam das perfekte services, damit nichts schief läuft. Unser fachliches Know-How hilft dir bei der Suche nach der
-                    richtigen Stelle.</p>
+                
+                <div class="services-single">
+                    
+                    <img class="services-single-icon" src="{{asset('/assets/icons/024-route.png')}}" alt="">                    
+                    <h2 class="services-single-title">Hallo sagen</h2>
+                    <p class="services-single-text">Ein services stechen zu lassen ist Vertrauenssache. Deshalb laden wir dich gerne auf einen Espresso ein, damit du uns
+                    kennenlernen kannst.</p>
                 </div>
-                <div class="process-single">
-                    <img class="process-single-icon" src="/images/icons-tattoo/003-bandage.png" alt="">
-                    <h2 class="process-single-title">Stechtag</h2>
-                   Jetzt geht es los! Nachdem wir die Körperstelle desinfiziert wurde, die Stelle eingezeichnet und jedes Detail nochmals
-                geprüft wurde, geht es los mit dem Stechen. Bitte konsumiere davor kein Alkohol oder sonstiges.</p>
-                </div>
-                <div class="process-single">
-                    <img class="process-single-icon" src="/images/icons-tattoo/010-cream.png" alt="">
-                    <h2 class="process-single-title">Pflege</h2>
-                    <p class="process-singletext">Wir möchten dass du viele Jahre glücklich bist mit deinem neuen Schmuckstück. Bitte konsumiere vor dem Piercen kein
-                    Alkohol, Drogen oder Schmerzmittel. Bei Einnahme von blutverdünnenden Medikamenten den Arzt fragen ob 1 Tag vor dem
-                    servicestermin darauf verzichtet werden kann. Bitte halte dich daran, nur so können wir gewährleisten, dass das
-                    Endergebnis perfekt wird.</p>
-                </div>
-                <div class="process-single">
-                    <img class="process-single-icon" src="/images/icons-tattoo/019-sketchbook.png" alt="">
-                    <h2 class="process-single-title">Schmuckwechsel</h2>
-                    <p class="process-singletext">Wir sind auch nach dem Stechen des servicess für dich da und stehen dir jederzeit per Email oder Telefon zur Verfügung. Wenn du dir nicht sicher bist, ob ein Schmuckwechsel nötig ist, kannst du uns gerne im Studio besuchen.</p>
-                </div>
+                
+                <div class="services-single">
+                    
+                    <img class="services-single-icon" src="{{asset('/assets/icons/002-car pedals.png')}}" alt="">                    
+                    <h2 class="services-single-title">Hallo sagen</h2>
+                    <p class="services-single-text">Ein services stechen zu lassen ist Vertrauenssache. Deshalb laden wir dich gerne auf einen Espresso ein, damit du uns
+                    kennenlernen kannst.</p>
+                </div>                
+                <div class="services-single">
+                    
+                    <img class="services-single-icon" src="{{asset('/assets/icons/005-highway.png')}}" alt="">                    
+                    <h2 class="services-single-title">Hallo sagen</h2>
+                    <p class="services-single-text">Ein services stechen zu lassen ist Vertrauenssache. Deshalb laden wir dich gerne auf einen Espresso ein, damit du uns
+                    kennenlernen kannst.</p>
+                </div>                
+                <div class="services-single">
+                    
+                    <img class="services-single-icon" src="{{asset('/assets/icons/001-traffic lights.png')}}" alt="">                    
+                    <h2 class="services-single-title">Hallo sagen</h2>
+                    <p class="services-single-text">Ein services stechen zu lassen ist Vertrauenssache. Deshalb laden wir dich gerne auf einen Espresso ein, damit du uns
+                    kennenlernen kannst.</p>
+                </div>                
             </div>
         </div>
 

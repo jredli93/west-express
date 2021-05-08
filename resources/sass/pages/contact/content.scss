@@ -6,9 +6,19 @@
     padding: 5rem 0;
     @include center-content();
 
+    @include tablet() {
+        display: block;
+        height: auto;
+    }
+
     .contact-map {
         flex: 0 1 calc(65% - 1rem);
         height: 100%;
+
+        @include tablet() {
+            height: 50vh;
+            width: 100%;
+        }
     }
 
     .contact-form {
@@ -16,6 +26,10 @@
         background: #fcfcfc29;
         flex: 0 1 calc(35% - 1rem);
         padding: 3rem;
+
+        @include tablet() {
+            margin-top: 2.5rem;
+        }
 
         .input-form {
             display: flex;
