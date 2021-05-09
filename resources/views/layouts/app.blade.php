@@ -17,15 +17,8 @@
     <!-- Styles -->
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     <link href="{{ asset('css/aos.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/font/flaticon.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/font-vintage/flaticon.css') }}" rel="stylesheet">
-
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
     <link href="{{ asset('css/vegas.min.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />    
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">     
 </head>
 <body>
     
@@ -51,7 +44,7 @@
     </div>
     
     <!-- Scripts -->
-    {{-- <script src="http://code.jquery.com/jquery.min.js"></script> --}}
+    <script src="http://code.jquery.com/jquery.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="{{ asset('js/aos.js') }}" defer></script>
@@ -60,7 +53,6 @@
     <script src="{{ asset('js/carousel.js') }}" defer></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="https://kit.fontawesome.com/5abe40685b.js" crossorigin="anonymous"></script>
-    <script src="{{ asset('js/map.js') }}" defer></script>
     <script src="{{ asset('js/mobile-menu.js') }}" defer></script>
 </body>
 </html>
