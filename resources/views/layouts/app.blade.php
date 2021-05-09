@@ -18,6 +18,7 @@
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     <link href="{{ asset('css/aos.css') }}" rel="stylesheet">
     <link href="{{ asset('css/vegas.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/lity.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">     
 </head>
 <body>
@@ -50,6 +51,7 @@
     <script src="{{ asset('js/aos.js') }}" defer></script>
     <script src="{{ asset('js/vegas.min.js') }}" defer></script>
     <script src="{{ asset('js/main.js') }}" defer></script>
+    <script src="{{ asset('js/lity.js') }}" defer></script>
     <script src="{{ asset('js/carousel.js') }}" defer></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="https://kit.fontawesome.com/5abe40685b.js" crossorigin="anonymous"></script>

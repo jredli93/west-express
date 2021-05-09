@@ -1,12 +1,5 @@
 <section class="services-content-wrap">
     <div class="services-content">
-
-        {{-- <p class="services-text">Wherever your goods need to be delivered – you can rely on our long-time experience and
-        our fully comprehensive and customized services. Whatever your freight needs might be –
-        we are here as your most trusted partner.
-        Our services consist of transporting dry, temperature controlled, flatbed and expedited
-        freight, whatever your needs might be don’t hesitate to call us.</p> --}}
-
         <div class="services-wrap-container">
             <h1 class="services-title">What we do</h1>
             <span class="services-overtitle">and how</span>
@@ -59,41 +52,25 @@
             </div>
         </div>
 
-        <h1 class="services-title-advice">Pflegeanleitung</h1>
+        <h1 class="services-heading">What we offer</h1>
+        <span class="services-subheading">find out bellow</span>
 
-        <p class="services-text">Achte auf Hygiene, d.h. wasche dir vor der Behandlung die Hände, vermeide Kontakt mit Schmutz, durch andere Personen
-        oder Haustiere.
+        <p class="services-text">Wherever your goods need to be delivered – you can rely on our long-time experience and
+        our fully comprehensive and customized services. Whatever your freight needs might be –
+        we are here as your most trusted partner.
+        Our services consist of transporting dry, temperature controlled, flatbed and expedited
+        freight, whatever your needs might be don’t hesitate to call us.</p>
 
-        Trage das Desinfektionsmittel mehrmals am Tag auf! .
 
-        ​
+        
 
-        Vermeide bis zur vollständigen Abheilung (ca. 3-4 Wochen) Kontaktsportarten, Salzwasser, Seewasser, Chlorwasser, Sauna,
-        Solarium und direkte Sonneneinstrahlung.
-
-        Auf keinen Fall kratzen oder den losen Schorf entfernen. Dieser sollte von selbst abfallen, da sonst die untere
-        Hautschicht geschädigt wird.
-        </p>
-
-        <div class="documents">
-            <button class="single-document">
-                <i class="fas fa-2x fa-print"></i>
-                <span class="document-text">Pflegeanleitung herunterladen</span>
-            </button>
-            <button class="single-document">
-                <i class="fas fa-2x fa-print"></i>
-                <span class="document-text">Pflegeanleitung Schleimhaut / Intim herunterladen</span>
-            </button>
+    </div><section class="cta-careers-wrap">
+        <div class="cta-careers">
+            <h1 class="cta-careers-title">About Us</h1>
+            <p class="cta-careers-text">If you would like to find out more about what we do. Please visit our About us page via link bellow.</p>
+            <a href="#" class="btn btn--xlrg btn--gradient">
+                <span class="btn__text btn-text">About Us</span>
+            </a>
         </div>
-
-        <h2 class="legal-age">Noch nicht volljährig?</h2>
-        <p class="legal-age-text">Du bist noch nicht 18 Jahre alt, möchtest aber trotzdem ein neues Tattoo stechen lassen? Solange deine
-        Erziehungsberechtigten damit einverstanden sind, ist es kein Problem. Bringe zur Besprechung einfach dieses Formular
-        ausgefüllt und unterzeichnet mit!</p>
-        <button class="legal-age-button">
-            <i class="fas fa-2x fa-exclamation"></i>
-            <span class="document-text">Einverständniserklärung herunterladen</span>
-        </button>
-
-    </div>
+    </section>
 </section>

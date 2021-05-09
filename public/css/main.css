@@ -1161,16 +1161,19 @@
   margin: 0 auto;
 }
 .services-content-wrap .services-content .services-text {
-  margin-top: 2rem;
+  margin-top: 8rem;
   text-align: center;
   color: #21546e;
+  margin: 0 auto;
+  max-width: 50vw;
   padding: 2rem 0;
+  font-size: 1.15rem;
 }
 .services-content-wrap .services-content .services-wrap-container {
   margin-top: 3rem;
 }
 .services-content-wrap .services-content .services-wrap-container .services-overtitle {
-  color: #337a94;
+  color: #0f0f0f;
   font-size: 1.2rem;
   display: block;
   text-align: center;
@@ -1225,77 +1228,98 @@
   border: 2px solid #ffffff5d;
 }
 .services-content-wrap .services-content .services-wrap-container .services-container .services-single:nth-child(1) {
-  background: linear-gradient(30deg, #53d3d1, #2eacda, #23d5ab);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 2.5s ease infinite;
           animation: gradient 2.5s ease infinite;
 }
 .services-content-wrap .services-content .services-wrap-container .services-container .services-single:nth-child(2) {
-  background: linear-gradient(30deg, #53d3d1, #2eacda, #23d5ab);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 5s ease infinite;
           animation: gradient 5s ease infinite;
 }
 .services-content-wrap .services-content .services-wrap-container .services-container .services-single:nth-child(3) {
-  background: linear-gradient(183deg, #23d5ab, #23a6d5, #23d5ab);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 3s ease infinite;
           animation: gradient 3s ease infinite;
 }
 .services-content-wrap .services-content .services-wrap-container .services-container .services-single:nth-child(4) {
-  background: linear-gradient(301deg, #92f4ff, #23a6d5, #23d5ab);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 7s ease infinite;
           animation: gradient 7s ease infinite;
 }
 .services-content-wrap .services-content .services-wrap-container .services-container .services-single:nth-child(5) {
-  background: linear-gradient(183deg, #23d5ab, #23a6d5, #23d5ab);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 3s ease infinite;
           animation: gradient 3s ease infinite;
 }
 .services-content-wrap .services-content .services-wrap-container .services-container .services-single:nth-child(6) {
-  background: linear-gradient(301deg, #92f4ff, #23a6d5, #23d5ab);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 4s ease infinite;
           animation: gradient 4s ease infinite;
 }
-.services-content-wrap .services-content .documents {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 2rem;
+.services-content-wrap .services-content .services-subheading {
+  color: #0f0f0f;
+  font-size: 1.2rem;
+  display: block;
+  text-align: center;
 }
-.services-content-wrap .services-content .documents .single-document {
-  display: flex;
-  align-items: center;
-  padding: 0.9rem 1.1rem;
-  justify-content: space-between;
-  width: 360px;
-  border: 1px solid white;
-  border-radius: 4px;
-  background: transparent;
+.services-content-wrap .services-content .services-heading {
+  color: #337a94;
+  font-family: "Bebas Neue", cursive;
+  line-height: 3.5rem;
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 7rem;
+  text-shadow: 0px 0px 10px #efefef;
 }
-@media (max-width: 1024px) {
-  .services-content-wrap .services-content .documents .single-document {
-    margin-top: 0.5rem;
-  }
+.services-content-wrap .cta-careers-wrap {
+  width: 100%;
+  height: 55vh;
+  background: linear-gradient(55deg, rgba(255, 255, 255, 0.94) 46%, rgba(12, 95, 99, 0.58) 100%), url("/assets/images/wheel.jpg");
+  background-position: 85% 72%;
+  background-size: cover;
+  margin-top: 7rem;
 }
-.services-content-wrap .services-content .legal-age {
-  margin-top: 4rem;
-}
-.services-content-wrap .services-content .legal-age-button {
-  display: flex;
-  align-items: center;
-  padding: 0.9rem 1.1rem;
-  justify-content: space-between;
-  width: 290px;
+.services-content-wrap .cta-careers-wrap .cta-careers {
   margin: 0 auto;
-  margin-top: 2.5rem;
-  border: 1px solid white;
-  border-radius: 4px;
-  background: transparent;
+  max-width: 70vw;
+  margin: 0 auto;
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+}
+.services-content-wrap .cta-careers-wrap .cta-careers .btn-transparent {
+  border: 0.15rem solid #337a94;
+  color: #337a94;
+}
+.services-content-wrap .cta-careers-wrap .cta-careers .btn-transparent:hover {
+  background: #337a94;
+}
+.services-content-wrap .cta-careers-wrap .cta-careers .btn-transparent:hover span {
+  color: #0f0f0f;
+}
+.services-content-wrap .cta-careers-wrap .cta-careers .btn-transparent .btn-text {
+  color: #337a94;
+}
+.services-content-wrap .cta-careers-wrap .cta-careers .cta-careers-text {
+  margin-bottom: 2rem;
+  color: #0f0f0f;
+}
+.services-content-wrap .cta-careers-wrap .cta-careers .cta-careers-title {
+  color: #efefef;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  color: #337a94;
+  font-size: 5.5rem;
 }
 
 .header-contact {
@@ -1427,25 +1451,25 @@
   border: 2px solid #ffffff5d;
 }
 .header-contact .banner-single:nth-child(1) {
-  background: linear-gradient(-45deg, #92f4ff, #23a6d5, #23d5ab);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 5s ease infinite;
           animation: gradient 5s ease infinite;
 }
 .header-contact .banner-single:nth-child(2) {
-  background: linear-gradient(30deg, #53d3d1, #2eacda, #23d5ab);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 2s ease infinite;
           animation: gradient 2s ease infinite;
 }
 .header-contact .banner-single:nth-child(3) {
-  background: linear-gradient(183deg, #23d5ab, #23a6d5, #23d5ab);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 7s ease infinite;
           animation: gradient 7s ease infinite;
 }
 .header-contact .banner-single:nth-child(4) {
-  background: linear-gradient(301deg, #92f4ff, #23a6d5, #23d5ab);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 3s ease infinite;
           animation: gradient 3s ease infinite;
