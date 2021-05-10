@@ -61,10 +61,8 @@
         Our services consist of transporting dry, temperature controlled, flatbed and expedited
         freight, whatever your needs might be don’t hesitate to call us.</p>
 
-
-        
-
-    </div><section class="cta-careers-wrap">
+    </div>
+    <section class="cta-careers-wrap">
         <div class="cta-careers">
             <h1 class="cta-careers-title">About Us</h1>
             <p class="cta-careers-text">If you would like to find out more about what we do. Please visit our About us page via link bellow.</p>

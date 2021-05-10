@@ -911,7 +911,7 @@
   height: 60vh;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 100% 80%, 50% 90%, 0 80%, 0 0);
   clip-path: polygon(0 0, 100% 0, 100% 0, 100% 85%, 50% 95%, 0 85%, 0 0);
-  background-image: linear-gradient(to right bottom, rgba(36, 36, 36, 0.9), rgba(0, 0, 0, 0.17)), url("/assets/images/slider1.jpg");
+  background-image: linear-gradient(to right bottom, rgba(36, 36, 36, 0.9), rgba(0, 0, 0, 0.17)), url("/assets/images/garage.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -982,10 +982,250 @@
 }
 .header-careers .careers-title {
   margin-top: 5rem;
-  font-size: 2.2rem;
+  font-size: 4rem;
+  font-family: "Bebas Neue", cursive;
   text-shadow: 0px 0px 5px #0f0f0f;
 }
 
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.careers-content-wrap .careers-values-wrap {
+  background: #f7f7f7;
+  height: auto;
+  margin-top: 7rem;
+}
+.careers-content-wrap .careers-values-wrap .careers-values {
+  margin: 0 auto;
+  max-width: 70vw;
+  text-align: center;
+  padding: 7rem 0;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers {
+  margin: 0 auto;
+  max-width: 70vw;
+  height: 100%;
+  background: transparent;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 8rem;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single {
+  flex: 0 1 calc(25% - 0.5rem);
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  -webkit-animation: gradient 4s ease infinite;
+          animation: gradient 4s ease infinite;
+  box-shadow: 0 0 6px 0px #28acc2;
+  padding: 0 3rem;
+}
+@media (max-width: 1024px) {
+  .careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single {
+    flex: 0 1 calc(50% - 1rem);
+  }
+}
+@media (max-width: 426px) {
+  .careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single {
+    flex: 0 1 100%;
+    margin-top: 1rem;
+  }
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single .banner-careers-single-title {
+  margin: 0.6rem 0;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single .banner-careers-single-text {
+  text-align: center;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single::after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  border: 2px solid #ffffff5d;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers-single:nth-child(1) {
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 5s ease infinite;
+          animation: gradient 5s ease infinite;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers-single:nth-child(2) {
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 2s ease infinite;
+          animation: gradient 2s ease infinite;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers-single:nth-child(3) {
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 7s ease infinite;
+          animation: gradient 7s ease infinite;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers-single:nth-child(4) {
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 3s ease infinite;
+          animation: gradient 3s ease infinite;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .underline {
+  margin: 0 auto;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .careers-values-subtitle {
+  color: #0f0f0f;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .careers-values-title {
+  color: #337a94;
+  font-size: 5.5rem;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 1rem;
+  line-height: 5rem;
+}
+.careers-content-wrap .careers-cta-wrap {
+  height: 85vh;
+}
+@media (max-width: 426px) {
+  .careers-content-wrap .careers-cta-wrap {
+    height: auto;
+  }
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media (max-width: 426px) {
+  .careers-content-wrap .careers-cta-wrap .careers-cta-content {
+    flex-direction: column;
+  }
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left {
+  flex: 0 1 58%;
+  background: white;
+  height: 100%;
+  padding: 4rem 17rem 4rem 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left {
+    padding: 4rem;
+  }
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left .careers-cta-border {
+  position: absolute;
+  top: 16%;
+  width: 33rem;
+  left: 6rem;
+  filter: invert(1) opacity(0.1);
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left .careers-cta-text {
+  padding: 1rem 0;
+  font-size: 1.1rem;
+  color: #ababab;
+  font-weight: 100;
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left .careers-cta-left-btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left .careers-cta-left-btn .btn__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left .careers-cta-left-btn .cta-pdf {
+  color: #ff2e2ee0;
+  margin-right: 1rem;
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left .careers-cta-subtitle {
+  color: #0f0f0f;
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left .careers-cta-title {
+  color: #337a94;
+  font-size: 5.5rem;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 1rem;
+  line-height: 5rem;
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-right {
+  flex: 0 1 42%;
+  height: 100%;
+  background-image: linear-gradient(75deg, rgba(40, 163, 190, 0) -5%, rgba(79, 222, 223, 0.51) 40%, rgba(123, 206, 210, 0.25) 65%, rgba(18, 106, 126, 0.98) 90%), url(/assets/images/parking1.jpg);
+  background-size: cover;
+  filter: grayscale(0.6);
+  position: relative;
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-right .careers-cta-right-container {
+  height: 100%;
+}
+@media (max-width: 426px) {
+  .careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-right .careers-cta-right-container {
+    height: 45vh;
+  }
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-right .careers-cta-right-container .careers-cta-right-stats {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-right .careers-cta-right-container .careers-cta-right-stats .stat {
+  width: 25%;
+  height: 8.8rem;
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 426px) {
+  .careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-right {
+    width: 100%;
+  }
+}
+.careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-right .play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  opacity: 0.7;
+  font-size: 4rem;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0px 0 2px black);
+}
 .careers-content-wrap .careers-title {
   color: #efefef;
   font-family: "Bebas Neue", cursive;
@@ -995,6 +1235,9 @@
   margin-top: 5rem;
   margin-bottom: 2rem;
   text-shadow: 0px 0px 10px #0f0f0f;
+}
+.careers-content-wrap .careers-text {
+  color: #ababab;
 }
 .careers-content-wrap .careers-content {
   max-width: 60vw;
@@ -1131,18 +1374,6 @@
   font-size: 4rem;
   font-family: "Bebas Neue", cursive;
   text-shadow: 0px 0px 5px #0f0f0f;
-}
-
-@-webkit-keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 @keyframes gradient {
