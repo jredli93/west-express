@@ -16,7 +16,7 @@
             <hr class="underline" data-aos="fade-up">
             <div class="banner-careers" data-aos="fade-up">
                 <div data-aos="fade-up" data-aos-delay="50" class="banner-careers-single">
-                    <span class="flaticon-bottle"></span>
+                    <span class="flaticon-locked"></span>
                     <h2 class="banner-careers-single-title">Safety</h2>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="50" class="banner-careers-single">
