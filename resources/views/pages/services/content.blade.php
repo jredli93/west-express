@@ -68,7 +68,7 @@
         <div class="cta-careers">
             <h1 class="cta-careers-title">About Us</h1>
             <p class="cta-careers-text">If you would like to find out more about what we do. Please visit our About us page via link bellow.</p>
-            <a href="#" class="btn btn--xlrg btn--gradient">
+            <a href="{{ route('about-us') }}" class="btn btn--xlrg btn--gradient">
                 <span class="btn__text btn-text">About Us</span>
             </a>
         </div>

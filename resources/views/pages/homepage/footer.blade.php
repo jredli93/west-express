@@ -1,11 +1,11 @@
 <footer class="footer-wrap">
     <div class="footer">
         <ul class="footer-list">
-            <li class="footer-item"><a href="#">Home</a></li>
-            <li class="footer-item"><a href="#">About</a> Us</li>
-            <li class="footer-item"><a href="#">Services</a></li>
-            <li class="footer-item"><a href="#">Careers</a></li>
-            <li class="footer-item"><a href="#">Contact</a> Us</li>
+            <li class="footer-item"><a href="{{ route('home') }}">Home</a></li>
+            <li class="footer-item"><a href="{{ route('about-us') }}">About Us</a></li>
+            <li class="footer-item"><a href="{{ route('services') }}">Services</a></li>
+            <li class="footer-item"><a href="{{ route('careers') }}">Careers</a></li>
+            <li class="footer-item"><a href="{{ route('contact') }}">Contact Us</a></li>
         </ul>
         <img src="/assets/images/logo.png" class="footer-logo" alt="">
         <div class="social-links">
