@@ -1045,6 +1045,16 @@
           animation: gradient 4s ease infinite;
   box-shadow: 0 0 6px 0px #28acc2;
   padding: 0 3rem;
+  margin-top: 0.5rem;
+  transition: all 0.2s linear;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single:hover {
+  transform: translateY(-0.4rem);
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single .careers-icon::before {
+  font-size: 4.5rem;
+  margin: 0;
+  filter: drop-shadow(0px 0px 4px #545454);
 }
 @media (max-width: 1024px) {
   .careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single {
@@ -1073,28 +1083,52 @@
   border: 2px solid #ffffff5d;
 }
 .careers-content-wrap .careers-values-wrap .careers-values .banner-careers-single:nth-child(1) {
-  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+  background: linear-gradient(30deg, #c17d36, #f1866bd1, #d85a1085);
   background-size: 400% 400%;
   -webkit-animation: gradient 5s ease infinite;
           animation: gradient 5s ease infinite;
 }
 .careers-content-wrap .careers-values-wrap .careers-values .banner-careers-single:nth-child(2) {
-  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+  background: linear-gradient(30deg, #33a2a1d1, #238eb5cc, #129475bd);
   background-size: 400% 400%;
   -webkit-animation: gradient 2s ease infinite;
           animation: gradient 2s ease infinite;
 }
 .careers-content-wrap .careers-values-wrap .careers-values .banner-careers-single:nth-child(3) {
-  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+  background: linear-gradient(30deg, #c17d36, #f1866bd1, #d85a1085);
   background-size: 400% 400%;
   -webkit-animation: gradient 7s ease infinite;
           animation: gradient 7s ease infinite;
 }
 .careers-content-wrap .careers-values-wrap .careers-values .banner-careers-single:nth-child(4) {
-  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+  background: linear-gradient(30deg, #33a2a1d1, #238eb5cc, #129475bd);
   background-size: 400% 400%;
   -webkit-animation: gradient 3s ease infinite;
           animation: gradient 3s ease infinite;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers-single:nth-child(5) {
+  background: linear-gradient(30deg, #33a2a1d1, #238eb5cc, #129475bd);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 7s ease infinite;
+          animation: gradient 7s ease infinite;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers-single:nth-child(6) {
+  background: linear-gradient(30deg, #c17d36, #f1866bd1, #d85a1085);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 2s ease infinite;
+          animation: gradient 2s ease infinite;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers-single:nth-child(7) {
+  background: linear-gradient(30deg, #33a2a1d1, #238eb5cc, #129475bd);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 3s ease infinite;
+          animation: gradient 3s ease infinite;
+}
+.careers-content-wrap .careers-values-wrap .careers-values .banner-careers-single:nth-child(8) {
+  background: linear-gradient(30deg, #c17d36, #f1866bd1, #d85a1085);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 4.5s ease infinite;
+          animation: gradient 4.5s ease infinite;
 }
 .careers-content-wrap .careers-values-wrap .careers-values .underline {
   margin: 0 auto;
@@ -1143,6 +1177,13 @@
     padding: 4rem;
   }
 }
+@media (max-width: 426px) {
+  .careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left {
+    padding: 3rem 0;
+    margin: 0 auto;
+    max-width: 70vw;
+  }
+}
 .careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left .careers-cta-border {
   position: absolute;
   top: 16%;
@@ -1161,10 +1202,20 @@
   width: -moz-fit-content;
   width: fit-content;
 }
+@media (max-width: 426px) {
+  .careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left .careers-cta-left-btn {
+    width: 100%;
+  }
+}
 .careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left .careers-cta-left-btn .btn__text {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 426px) {
+  .careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left .careers-cta-left-btn .btn__text {
+    letter-spacing: 2px;
+  }
 }
 .careers-content-wrap .careers-cta-wrap .careers-cta-content .careers-cta-left .careers-cta-left-btn .cta-pdf {
   color: #ff2e2ee0;
@@ -1293,6 +1344,47 @@
 }
 .careers-content-wrap .careers-content .b-careers .careers__symbol {
   font-weight: 700;
+}
+.careers-content-wrap .cta-careers-wrap {
+  width: 100%;
+  height: 55vh;
+  background: linear-gradient(55deg, rgba(255, 255, 255, 0.94) 46%, rgba(12, 95, 99, 0.58) 100%), url("/assets/images/about.jpg");
+  background-position: 85% 92%;
+}
+.careers-content-wrap .cta-careers-wrap .cta-careers {
+  margin: 0 auto;
+  max-width: 70vw;
+  margin: 0 auto;
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+}
+.careers-content-wrap .cta-careers-wrap .cta-careers .btn-transparent {
+  border: 0.15rem solid #337a94;
+  color: #337a94;
+}
+.careers-content-wrap .cta-careers-wrap .cta-careers .btn-transparent:hover {
+  background: #337a94;
+}
+.careers-content-wrap .cta-careers-wrap .cta-careers .btn-transparent:hover span {
+  color: #0f0f0f;
+}
+.careers-content-wrap .cta-careers-wrap .cta-careers .btn-transparent .btn-text {
+  color: #337a94;
+}
+.careers-content-wrap .cta-careers-wrap .cta-careers .cta-careers-text {
+  margin-bottom: 2rem;
+  color: #0f0f0f;
+}
+.careers-content-wrap .cta-careers-wrap .cta-careers .cta-careers-title {
+  color: #efefef;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  color: #337a94;
+  font-size: 5.5rem;
 }
 
 .header-services {
@@ -1440,6 +1532,11 @@
 @media (max-width: 768px) {
   .services-content-wrap .services-content .services-wrap-container .services-container .services-single {
     flex: 0 1 calc(50% - 1rem);
+  }
+}
+@media (max-width: 426px) {
+  .services-content-wrap .services-content .services-wrap-container .services-container .services-single {
+    flex: 0 1 100%;
   }
 }
 .services-content-wrap .services-content .services-wrap-container .services-container .services-single .services-single-icon {

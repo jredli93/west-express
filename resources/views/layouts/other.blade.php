@@ -15,6 +15,7 @@
         rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/popular/flaticon.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/business/flaticon.css') }}">
     <!-- MapBox -->
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />

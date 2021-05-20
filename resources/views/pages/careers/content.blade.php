@@ -16,22 +16,37 @@
             <hr class="underline" data-aos="fade-up">
             <div class="banner-careers" data-aos="fade-up">
                 <div data-aos="fade-up" data-aos-delay="50" class="banner-careers-single">
-                    <span class="flaticon-locked"></span>
+                    <span class="flaticon-locked careers-icon"></span>
                     <h2 class="banner-careers-single-title">Safety</h2>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="50" class="banner-careers-single">
-                    <span class="flaticon-bottle"></span>
+                    <span class="flaticon-graph-3 careers-icon"></span>
                     <h2 class="banner-careers-single-title">Growth</h2>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="50" class="banner-careers-single">
-                    <span class="flaticon-bottle"></span>
+                    <span class="flaticon-users careers-icon"></span>
                     <h2 class="banner-careers-single-title">Customers</h2>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="50" class="banner-careers-single">
-                    <span class="flaticon-bottle"></span>
+                    <span class="flaticon-coin-7 careers-icon"></span>
                     <h2 class="banner-careers-single-title">Profit</h2>
+                </div>                
+                <div data-aos="fade-up" data-aos-delay="50" class="banner-careers-single">
+                    <span class="flaticon-locked careers-icon"></span>
+                    <h2 class="banner-careers-single-title">Safety</h2>
                 </div>
-                
+                <div data-aos="fade-up" data-aos-delay="50" class="banner-careers-single">
+                    <span class="flaticon-graph-3 careers-icon"></span>
+                    <h2 class="banner-careers-single-title">Growth</h2>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="50" class="banner-careers-single">
+                    <span class="flaticon-users careers-icon"></span>
+                    <h2 class="banner-careers-single-title">Customers</h2>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="50" class="banner-careers-single">
+                    <span class="flaticon-coin-7 careers-icon"></span>
+                    <h2 class="banner-careers-single-title">Profit</h2>
+                </div>                
             </div>
         </div>
     </div>
@@ -78,12 +93,12 @@
 
     <section class="cta-careers-wrap">
         <div class="cta-careers">
-            <h1 class="cta-careers-title">About Us</h1>
+            <h1 class="cta-careers-title">Contact us</h1>
             <p class="cta-careers-text">If you would like to find out more about what we do. Please visit our About us
                 page
                 via link bellow.</p>
-            <a href="{{ route('about-us') }}" class="btn btn--xlrg btn--gradient">
-                <span class="btn__text btn-text">About Us</span>
+            <a href="{{ route('contact') }}" class="btn btn--xlrg btn--gradient">
+                <span class="btn__text btn-text">Contact Us</span>
             </a>
         </div>
     </section>

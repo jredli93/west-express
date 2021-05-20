@@ -1,18 +1,18 @@
 .careers-content-wrap {
-   
-     @keyframes gradient {
-         0% {
-             background-position: 0% 50%;
-         }
 
-         50% {
-             background-position: 100% 50%;
-         }
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
 
-         100% {
-             background-position: 0% 50%;
-         }
-     }
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
 
 
     .careers-values-wrap {
@@ -25,7 +25,7 @@
             text-align: center;
             padding: 7rem 0;
 
-            
+
 
             .banner-careers {
                 @include center-content();
@@ -49,6 +49,20 @@
                     animation: gradient 4s ease infinite;
                     box-shadow: 0 0 6px 0px #28acc2;
                     padding: 0 3rem;
+                    margin-top: 0.5rem;
+                    transition: all 0.2s linear;
+
+                    &:hover {
+                        transform: translateY(-0.4rem);
+                    }
+
+                    .careers-icon {
+                        &::before {
+                            font-size: 4.5rem;
+                            margin: 0;
+                            filter: drop-shadow(0px 0px 4px rgb(84, 84, 84));
+                        }
+                    }
 
                     @include laptop() {
                         flex: 0 1 calc(50% - 1rem);
@@ -82,28 +96,53 @@
 
 
             .banner-careers-single:nth-child(1) {
-                background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+                background: linear-gradient(30deg, #c17d36, #f1866bd1, #d85a1085);
                 background-size: 400% 400%;
                 animation: gradient 5s ease infinite;
 
             }
 
             .banner-careers-single:nth-child(2) {
-                background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+                background: linear-gradient(30deg, #33a2a1d1, #238eb5cc, #129475bd);
                 background-size: 400% 400%;
                 animation: gradient 2s ease infinite;
             }
 
             .banner-careers-single:nth-child(3) {
-                background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+                background: linear-gradient(30deg, #c17d36, #f1866bd1, #d85a1085);
                 background-size: 400% 400%;
                 animation: gradient 7s ease infinite;
             }
 
             .banner-careers-single:nth-child(4) {
-                background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+                background: linear-gradient(30deg, #33a2a1d1, #238eb5cc, #129475bd);
                 background-size: 400% 400%;
                 animation: gradient 3s ease infinite;
+            }
+
+            .banner-careers-single:nth-child(5) {
+                background: linear-gradient(30deg, #33a2a1d1, #238eb5cc, #129475bd);
+                background-size: 400% 400%;
+                animation: gradient 7s ease infinite;
+
+            }
+
+            .banner-careers-single:nth-child(6) {
+                background: linear-gradient(30deg, #c17d36, #f1866bd1, #d85a1085);
+                background-size: 400% 400%;
+                animation: gradient 2s ease infinite;
+            }
+
+            .banner-careers-single:nth-child(7) {
+                background: linear-gradient(30deg, #33a2a1d1, #238eb5cc, #129475bd);
+                background-size: 400% 400%;
+                animation: gradient 3s ease infinite;
+            }
+
+            .banner-careers-single:nth-child(8) {
+                background: linear-gradient(30deg, #c17d36, #f1866bd1, #d85a1085);
+                background-size: 400% 400%;
+                animation: gradient 4.5s ease infinite;
             }
 
 
@@ -157,6 +196,11 @@
                     padding: 4rem;
                 }
 
+                @include mobile {
+                    padding: 3rem 0;
+                    @include center-content();
+                }
+
 
                 .careers-cta-border {
                     position: absolute;
@@ -176,10 +220,18 @@
                 .careers-cta-left-btn {
                     width: fit-content;
 
+                    @include mobile {
+                        width: 100%;
+                    }
+
                     .btn__text {
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
+
+                        @include mobile {
+                            letter-spacing: 2px;
+                        }
                     }
 
                     .cta-pdf {
@@ -330,6 +382,55 @@
 
         .b-careers .careers__symbol {
             font-weight: 700;
+        }
+    }
+
+    .cta-careers-wrap {
+        width: 100%;
+        height: 55vh;
+        background: linear-gradient(55deg, rgba(255, 255, 255, 0.94) 46%, rgba(12, 95, 99, 0.58) 100%),
+            url('/assets/images/about.jpg');
+        background-position: 85% 92%;
+
+        .cta-careers {
+            @include center-content();
+            margin: 0 auto;
+            flex: 0 1 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            height: 100%;
+
+            .btn-transparent {
+                border: 0.15rem solid $blue;
+                color: $blue;
+
+                &:hover {
+                    background: $blue;
+
+                    span {
+                        color: $dark-black;
+                    }
+                }
+
+                .btn-text {
+                    color: $blue;
+                }
+            }
+
+            .cta-careers-text {
+                margin-bottom: 2rem;
+                color: $dark-black;
+            }
+
+            .cta-careers-title {
+                color: $text-white;
+                font-family: $styled-text;
+                text-align: center;
+                color: $blue;
+                font-size: 5.5rem;
+            }
         }
     }
 }
