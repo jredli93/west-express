@@ -5,7 +5,7 @@ $("#header").vegas({
     slides: [{
             video: {
                 src: [
-                    '/assets/images/highway.mp4',
+                    '/assets/images/tattooing.mp4',
                 ],
                 loop: false,
                 mute: true

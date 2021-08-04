@@ -99,7 +99,7 @@ $("#header").vegas({
   timer: false,
   slides: [{
     video: {
-      src: ['/assets/images/highway.mp4'],
+      src: ['/assets/images/tattooing.mp4'],
       loop: false,
       mute: true
     },

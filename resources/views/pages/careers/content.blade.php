@@ -6,8 +6,6 @@
             customer service from the first call that reach our office to the delivery of your freight is our mission.
             Transparency
             and fairness are the key factors for us in our long-time partnership with customers.</p>
-
-
     </div>
 
     <div class="careers-values-wrap">
@@ -30,7 +28,7 @@
                 <div data-aos="fade-up" data-aos-delay="50" class="banner-careers-single">
                     <span class="flaticon-coin-7 careers-icon"></span>
                     <h2 class="banner-careers-single-title">Profit</h2>
-                </div>                
+                </div>
                 <div data-aos="fade-up" data-aos-delay="50" class="banner-careers-single">
                     <span class="flaticon-locked careers-icon"></span>
                     <h2 class="banner-careers-single-title">Safety</h2>
@@ -46,7 +44,7 @@
                 <div data-aos="fade-up" data-aos-delay="50" class="banner-careers-single">
                     <span class="flaticon-coin-7 careers-icon"></span>
                     <h2 class="banner-careers-single-title">Profit</h2>
-                </div>                
+                </div>
             </div>
         </div>
     </div>
