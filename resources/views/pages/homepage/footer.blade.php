@@ -7,7 +7,7 @@
             <li class="footer-item"><a href="{{ route('careers') }}">Careers</a></li>
             <li class="footer-item"><a href="{{ route('contact') }}">Contact Us</a></li>
         </ul>
-        <img src="/assets/images/logo.png" class="footer-logo" alt="">
+        <img src="/assets/images/we-logo.png" class="footer-logo" alt="">
         <div class="social-links">
             <i class="fa fa-instagram"></i>
             <i class="fa fa-twitter"></i>
