@@ -5,13 +5,12 @@
     overflow: hidden;
 
     .bg-effect {
-        background: url('/assets/images/night-road.jpg');
+        background: url('/assets/images/pplsaid1.jpg');
         background-size: cover;
         background-attachment: fixed;
         -moz-filter: blur(13px);
         -o-filter: blur(13px);
         -ms-filter: blur(13px);
-        filter: grayscale(0.5) brightness(1.5) saturate(1.5);
         position: absolute;
         width: 100%;
         height: 100%;
