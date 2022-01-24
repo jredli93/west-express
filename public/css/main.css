@@ -51,7 +51,7 @@
   }
   .header .navigation-mobile .navigation-mobile-logo {
     width: 100px;
-    filter: invert(100%);
+    filter: drop-shadow(0px 0px 0px black);
   }
   .header .navigation-mobile .navigation-hamburger {
     font-size: 2rem;
@@ -215,6 +215,12 @@
   margin-bottom: 2rem;
   color: #0f0f0f;
 }
+.services-wrap .services .services-content {
+  padding: 1rem 0;
+  font-size: 1.1rem;
+  color: #0f0f0f;
+  font-weight: 100;
+}
 .services-wrap .services .services-title {
   color: #efefef;
   font-family: "Bebas Neue", cursive;
@@ -360,8 +366,9 @@
 .cta-careers-wrap {
   width: 100%;
   height: 55vh;
-  background: linear-gradient(55deg, rgba(255, 255, 255, 0.94) 46%, rgba(12, 95, 99, 0.58) 100%), url("/assets/images/Careers2.jpg");
-  background-position: 85% 92%;
+  background: linear-gradient(55deg, rgba(255, 255, 255, 0.94) 46%, rgba(12, 95, 99, 0) 100%), url("/assets/images/career-cta1.jpg");
+  background-position: 225% 222%;
+  background-size: cover;
 }
 .cta-careers-wrap .cta-careers {
   margin: 0 auto;
@@ -568,7 +575,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: start;
-  background: linear-gradient(55deg, rgba(255, 255, 255, 0.16) 32%, #d0570f 100%), url("/assets/images/road.jpg");
+  background: linear-gradient(55deg, rgba(255, 255, 255, 0.16) 32%, #d0570f 100%), url("/assets/images/people-said2.jpg");
   background-position: 0% 112%;
   background-attachment: fixed;
   background-size: cover;
@@ -692,8 +699,8 @@
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 100% 80%, 50% 90%, 0 80%, 0 0);
   clip-path: polygon(0 0, 100% 0, 100% 0, 100% 85%, 50% 95%, 0 85%, 0 0);
   background-image: linear-gradient(to right bottom, rgba(36, 36, 36, 0.9), rgba(0, 0, 0, 0.17)), url("/assets/images/about-header.jpg");
-  background-position: 100% 80%;
-  background-size: cover;
+  background-position: 100% 52%;
+  background-size: 100% 125%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -739,7 +746,7 @@
   }
   .header-about .navigation-mobile .navigation-mobile-logo {
     width: 100px;
-    filter: invert(100%);
+    filter: drop-shadow(0px 0px 0px black);
   }
   .header-about .navigation-mobile .navigation-hamburger {
     font-size: 2rem;
@@ -767,6 +774,11 @@
   font-family: "Bebas Neue", cursive;
   text-shadow: 0px 0px 5px #0f0f0f;
 }
+@media (max-width: 426px) {
+  .header-about .about-title {
+    margin-top: 10rem;
+  }
+}
 
 .about-content-wrap {
   max-width: 70vw;
@@ -782,12 +794,17 @@
   margin-bottom: 2rem;
   text-shadow: 0px 0px 10px #efefef;
 }
+.about-content-wrap .about-text {
+  color: #0f0f0f;
+  font-size: 1.2rem;
+  padding: 4rem 0;
+}
 
 .header-careers {
   height: 60vh;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 100% 80%, 50% 90%, 0 80%, 0 0);
   clip-path: polygon(0 0, 100% 0, 100% 0, 100% 85%, 50% 95%, 0 85%, 0 0);
-  background-image: linear-gradient(to right bottom, rgba(36, 36, 36, 0.9), rgba(0, 0, 0, 0.17)), url("/assets/images/garage.jpeg");
+  background-image: linear-gradient(to right bottom, rgba(36, 36, 36, 0.9), rgba(0, 0, 0, 0.17)), url("/assets/images/career-header3.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -835,7 +852,7 @@
   }
   .header-careers .navigation-mobile .navigation-mobile-logo {
     width: 100px;
-    filter: invert(100%);
+    filter: drop-shadow(0px 0px 0px black);
   }
   .header-careers .navigation-mobile .navigation-hamburger {
     font-size: 2rem;
@@ -862,6 +879,11 @@
   font-size: 4rem;
   font-family: "Bebas Neue", cursive;
   text-shadow: 0px 0px 5px #0f0f0f;
+}
+@media (max-width: 426px) {
+  .header-careers .careers-title {
+    margin-top: 10rem;
+  }
 }
 
 @-webkit-keyframes gradient {
@@ -1166,6 +1188,7 @@
 }
 .careers-content-wrap .careers-text {
   color: #ababab;
+  text-align: center;
 }
 .careers-content-wrap .careers-content {
   max-width: 60vw;
@@ -1271,7 +1294,7 @@
   background-image: linear-gradient(to right bottom, rgba(30, 87, 99, 0.37), rgba(255, 255, 255, 0.17)), url(/assets/images/services-header.jpg);
   background-size: cover;
   display: flex;
-  background-position: 100% 80%;
+  background-position: 100% 108%;
   flex-direction: column;
   align-items: center;
 }
@@ -1316,7 +1339,7 @@
   }
   .header-services .navigation-mobile .navigation-mobile-logo {
     width: 100px;
-    filter: invert(100%);
+    filter: drop-shadow(0px 0px 0px black);
   }
   .header-services .navigation-mobile .navigation-hamburger {
     font-size: 2rem;
@@ -1343,6 +1366,11 @@
   font-size: 4rem;
   font-family: "Bebas Neue", cursive;
   text-shadow: 0px 0px 5px #0f0f0f;
+}
+@media (max-width: 426px) {
+  .header-services .services-title {
+    margin-top: 10rem;
+  }
 }
 
 @keyframes gradient {
@@ -1571,7 +1599,7 @@
   }
   .header-contact .navigation-mobile .navigation-mobile-logo {
     width: 100px;
-    filter: invert(100%);
+    filter: drop-shadow(0px 0px 0px black);
   }
   .header-contact .navigation-mobile .navigation-hamburger {
     font-size: 2rem;
@@ -1617,7 +1645,7 @@
   margin-top: 8rem;
 }
 .header-contact .banner-contact .banner-single {
-  flex: 0 1 calc(25% - 0.5rem);
+  flex: 0 1 calc(33% - 0.5rem);
   height: 25vh;
   display: flex;
   flex-direction: column;

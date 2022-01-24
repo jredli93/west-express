@@ -12,7 +12,7 @@
             <i class="fa fa-instagram"></i>
             <i class="fa fa-twitter"></i>
             <i class="fa fa-linkedin"></i>
-            <i class="fa fa-pinterest"></i>
+            <i class="fa fa-facebook"></i>
         </div>
     </div>
 </footer>

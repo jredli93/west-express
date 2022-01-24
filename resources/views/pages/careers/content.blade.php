@@ -1,11 +1,8 @@
 <section class="careers-content-wrap">
     <h1 class="careers-title">Vision</h1>
     <div class="careers-content">
-        <p class="careers-text">We provide competitive and consistent rates along with all the information you need with
-            you shipments. Excellence in
-            customer service from the first call that reach our office to the delivery of your freight is our mission.
-            Transparency
-            and fairness are the key factors for us in our long-time partnership with customers.</p>
+        <p class="careers-text">Make a difference. Love what You do. Be Successful. Build a Career. Enjoy while you do
+            all of that.</p>
     </div>
 
     <div class="careers-values-wrap">
@@ -52,20 +49,16 @@
     <section class="careers-cta-wrap" id="careers-cta-content">
         <div class="careers-cta-content">
             <div class="careers-cta-left">
-                <h1 class="careers-cta-title" data-aos="fade-up">Apply for a job</h1>
+                <h1 class="careers-cta-title" data-aos="fade-up">Apply</h1>
                 <hr class="underline" data-aos="fade-up">
                 <p class="careers-cta-subtitle" data-aos="fade-up">Learn more on how to apply at West Express</p>
                 <p class="careers-cta-text" data-aos="fade-up">
-                    West Express is always looking for company drivers and owner operators.
-                    Apply now online by sending us your information, filled employment application, resume and salary
-                    expectations to
-                    hr@westexpressllc.com or call our office (972-787-0047) during
-                    regular business hours Monday- Friday from 7am to 5 pm CST.To download our employment application
-                    please click on the link below
+                    Apply now online clicking below or call our office 972-787-0047 during Monday- Friday 7am to 5 pm
+                    CST.
                 </p>
                 <a data-aos="fade-up" href="{{ route('about-us') }}"
                     class="btn careers-cta-left-btn btn--gradient btn--xlrg">
-                    <span class="btn__text"><i class="fa fa-2x fa-file-pdf cta-pdf"></i>Download application</span>
+                    <span class="btn__text"><i class="fa fa-2x fa-file-pdf cta-pdf"></i>Fill in the application</span>
                 </a>
             </div>
             <div class="careers-cta-right">
@@ -73,7 +66,7 @@
                     <div class="careers-cta-right-stats">
                         <div class="stat">
                             <span class="stat-number">8000+</span>
-                            <span class="stat-text">Drivers</span>
+                            <span class="stat-text">No forced dispatch</span>
                         </div>
                         <div class="stat">
                             <span class="stat-number">24/7</span>
@@ -81,7 +74,7 @@
                         </div>
                         <div class="stat">
                             <span class="stat-number">200+</span>
-                            <span class="stat-text">Employees</span>
+                            <span class="stat-text">Paid weekly</span>
                         </div>
                     </div>
                 </div>
